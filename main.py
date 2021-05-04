@@ -1,5 +1,20 @@
 from random import randint
 import PySimpleGUI as sg
+
+layout = [
+    [sg.Text('Dice Simulator')]
+    [sg.Input('Do you want to roll a dice? [Y/N]', key='choice')]
+    [sg.Button('Enter')]
+]
+self.window = sg.Window("Dice Simulator").layout(layout)
+self.button, self.values = window.Read()
+
+def start(self):
+    print(self.values)
+
+ui = dice_simulator()
+ui.start()
+
 choice = ' '
 while True:
     while choice not in 'NY':
