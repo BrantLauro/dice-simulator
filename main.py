@@ -1,33 +1,22 @@
 from random import randint
 import PySimpleGUI as sg
 
+sg.theme('SandyBeach')
+
 layout = [
-    [sg.Text('Dice Simulator')]
-    [sg.Input('Do you want to roll a dice? [Y/N]', key='choice')]
-    [sg.Button('Enter')]
+    [sg.Text("What dice do you want to roll? [4/6/8/10/12/20/100]")],
+    [sg.Input('', key='-INPUT-')],
+    [sg.Output(key= '-OUTPUT-')],
+    [sg.Button('Ok'), sg.Button('Quit')],
+    
 ]
-self.window = sg.Window("Dice Simulator").layout(layout)
-self.button, self.values = window.Read()
+window = sg.Window("Dice Simulator", layout)
 
-def start(self):
-    print(self.values)
-
-ui = dice_simulator()
-ui.start()
-
-choice = ' '
 while True:
-    while choice not in 'NY':
-        choice = input('Do you want to roll a dice? [Y/N] ').upper().strip()[0]
-        if choice == 'N':
-            break
-            choice = ' '
-        if choice == 'Y':
-            choice_dice = 0
-            while choice_dice not in (4, 6, 8, 10, 12, 20, 100): 
-                choice_dice = int(input('What dice do you want to roll? [4/6/8/10/12/20/100] '))
-            dice = randint(1, choice_dice)
-            print(dice)
-            dice = 0
-            choice_dice = ' '
-            choice = ' '
+    events, values = window.Read()
+    if events == sg.WINDOW_CLOSED or events == 'Quit':
+        break
+    dice_type = int(values['-INPUT-'])
+    if dice_type in (4, 6, 8, 10, 12, 20, 100):
+        dice = randint(1, dice_type)
+        window['-OUTPUT-'].update('The value is: ' + str(dice))
