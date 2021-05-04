@@ -1,7 +1,7 @@
 from random import randint
 import PySimpleGUI as sg
 
-sg.theme('SandyBeach')
+sg.theme('Purple')
 
 layout = [
     [sg.Text("What dice do you want to roll? [4/6/8/10/12/20/100]")],
