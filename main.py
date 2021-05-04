@@ -1,4 +1,5 @@
 from random import randint
+import PySimpleGUI as sg
 choice = ' '
 while True:
     while choice not in 'NY':
