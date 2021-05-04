@@ -26,7 +26,7 @@
 #### Example:
 
 <p align = "center">
-<img height="300" alt="dice-simulator-terminal" src="https://user-images.githubusercontent.com/60024796/117061849-10958280-acf9-11eb-8c2c-e95ecc1e8cca.png">
+<img width="700" height="300" alt="dice-simulator-terminal" src="https://user-images.githubusercontent.com/60024796/117061849-10958280-acf9-11eb-8c2c-e95ecc1e8cca.png">
 </p>
 
 ### On the UI
@@ -36,7 +36,7 @@
 
 #### Example:
 <p align= "center">
-<img height="300" alt="dice-simulator-ui" src="https://user-images.githubusercontent.com/60024796/117062484-dbd5fb00-acf9-11eb-9daf-197e72a20bf2.png">
+<img width="700" height="300" alt="dice-simulator-ui" src="https://user-images.githubusercontent.com/60024796/117062484-dbd5fb00-acf9-11eb-9daf-197e72a20bf2.png">
 </p>
 
 ## ⚈ Download:
