@@ -26,7 +26,7 @@
 #### Example:
 
 <p align = "center">
-<img width="700" height="300" alt="dice-simulator-terminal" src="https://user-images.githubusercontent.com/60024796/117061849-10958280-acf9-11eb-8c2c-e95ecc1e8cca.png">
+<img width="600" alt="dice-simulator-terminal" src="https://user-images.githubusercontent.com/60024796/117061849-10958280-acf9-11eb-8c2c-e95ecc1e8cca.png">
 </p>
 
 ### On the UI
