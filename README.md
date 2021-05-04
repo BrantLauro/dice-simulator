@@ -39,13 +39,15 @@
 <img height="300" alt="dice-simulator-ui" src="https://user-images.githubusercontent.com/60024796/117062484-dbd5fb00-acf9-11eb-9daf-197e72a20bf2.png">
 </p>
 
+## ⚈ Download:
+
+[Click Here](https://github.com/BrantLauro/dice-simulator/releases/tag/v1.0.0) to download.
+
 ## 💻 Tech Stack:
 
 The following tools were used in the construction of the project:
 - [Python](https://www.python.org/)
 - [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
-
-
 
 
 ### ©️ Copyrights
