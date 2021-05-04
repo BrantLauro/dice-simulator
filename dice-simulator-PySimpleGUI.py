@@ -8,8 +8,8 @@ layout = [
     [sg.Input('', key='-INPUT-')],
     [sg.Output(key= '-OUTPUT-')],
     [sg.Button('Ok'), sg.Button('Quit')],
-    
 ]
+
 window = sg.Window("Dice Simulator", layout)
 
 while True:
