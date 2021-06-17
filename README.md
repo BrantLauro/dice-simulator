@@ -41,7 +41,7 @@
 
 ## ⚈ Download:
 
-[Click Here](https://github.com/BrantLauro/dice-simulator/releases/tag/v1.0.0) to download.
+[Click Here](https://github.com/BrantLauro/dice-simulator/releases/) to download.
 
 ## 💻 Tech Stack:
 
